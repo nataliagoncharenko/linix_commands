@@ -59,3 +59,4 @@ sudo vgs - показывает нераспределенное дисково�
 docker logs --tail 50 homeassistant - посмотреть последние 50 логов контейнера умного дома (можно заменить цифру на другую и название контейнера)
 docker logs -f homeassistanr - логи в режиме реального времени (-f follow)
 docker logs homeassistant - посмотреть все логи 
+tail -n 20 /var/log/wg_restart.log - логи скрипта на перезапуск wg
